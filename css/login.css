@@ -1,0 +1,103 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: Arial;
+	text-align: center;
+}
+body{
+	background-color: #C0C0C0;
+	width: auto;
+	height: auto;
+	 	font: normal 0.9rem Arial, Helvetica, sans-serif;
+
+}
+form{
+	padding: 1.5%;
+	background: -webkit-linear-gradient(#676767, #1D1D1D);
+	margin: 2.5% 30% 2.5% 30%;
+	border: 1.5px solid #ffcc00;
+    border-radius: 15px;
+	width: auto;
+	height: auto;
+}
+h1{
+	text-align: center;
+	padding: 12px;
+	color: black;
+}
+a{
+	text-decoration: none;
+	color: blue;
+}
+#registro{
+	padding: 10px;
+}
+input{
+	width: 90%;
+	padding: 2.5%;
+	margin: 3% auto;
+	font-size: 115%em;
+	border: 1px solid rgba(0,0,0,0.3);
+	background: #ccccff;
+	border-radius: 15px;
+	font: normal 0.9rem Arial, Helvetica, sans-serif;
+
+}
+input[type='submit']{
+	background-color: #48e;
+	color: black;
+	width: auto;
+	font: normal 0.9rem Arial, Helvetica, sans-serif;
+
+}
+.ok{
+	text-align: center;
+	width: 98%;
+	padding: 1%;
+	background-color: #1e6;
+	color: #fff;
+}
+.bad{
+	text-align: center;
+	width: 98%;
+	padding: 1%;
+	background-color: #a22;
+	color: #fff;
+}
+	footer{
+	color: black;
+	width: auto;
+	height: auto;
+	font-weight: bold;
+	padding-top: 20px;
+	text-align: center;
+	text-shadow: 1px 1px #FFF;
+}
+#inicio{
+	padding: 1.75%;
+	border-radius: 15px;
+	box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
+	text-align: center;
+	background: #ccccff;
+	margin: 2.5% 3% 0 3%;
+}
+#inicio a:hover{
+	color: red;
+}
+#footer{
+	text-align: center;
+	color: black;
+	width: auto;
+	height: auto;
+	font-weight: bold;
+	text-shadow: 1px 1px #FFF;
+}
+@media screen and (max-width: 639px)
+{
+.contenedor{
+	width: 100%;
+}
+aside{
+	display: none;
+}
+}
